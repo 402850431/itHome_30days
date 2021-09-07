@@ -78,8 +78,8 @@ notifyItemRangeChanged(position, count, payload)
 
 ```kotlin
 data class Person(
-    val id: Long?,
-    val name: String?
+    val id: Long,
+    val name: String
 )
 ```
 
