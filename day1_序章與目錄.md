@@ -11,6 +11,7 @@
 這30天的內容，會比較偏向Kotlin工作及自學的實用技術工具與心得分享，  
 如果不對你胃口，那只能說抱歉啦 >__<  
 
+
 ---
 ## 內容目錄
 [Day1] Andoroid - Kotlin筆記： 序章與目錄  
@@ -18,7 +19,7 @@
 [Day3] Andoroid - Kotlin筆記：lambda  
 [Day4] Andoroid - Kotlin筆記：RecyclerView Adapter - ListAdapter + DiffUtil  
 [Day5] Andoroid - Kotlin筆記：RecyclerView Adapter - ListAdapter + DiffUtil 進階應用  
-[Day6]Andoroid - Kotlin筆記：RecyclerViewPool  
+[Day6] Andoroid - Kotlin筆記：RecyclerViewPool  
 [Day7] Andoroid - Kotlin筆記：MVVM基本架構介紹(上) - View & ViewModel  
 [Day8] Andoroid - Kotlin筆記：MVVM基本架構介紹(下) - LiveData  
 [Day9] Andoroid - Kotlin筆記：JetPack - KTX簡介  
@@ -28,7 +29,8 @@
 [Day13] Andoroid - Kotlin筆記：JetPack - KTX好方便之省code系列 (Navigation)  
 [Day14] Andoroid - Kotlin筆記：JetPack - KTX好方便之省code系列 (Navigation) - 2  
 [Day15] Andoroid - Kotlin筆記：JetPack - KTX好方便之省code系列 (LiveData)  
-[Day16] ndoroid - Kotlin筆記：Scope function - let、also、run、apply  
+[Day16] Andoroid - Kotlin筆記：Scope function - let、also、run、apply  
+[Day17] Andoroid - Kotlin筆記：LiveData在Fragment重新創建時，LiveData的重複觸發
 ...（待訂）
   
 ---
