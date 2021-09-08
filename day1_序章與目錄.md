@@ -30,7 +30,7 @@
 [Day14] Andoroid - Kotlin筆記：JetPack - KTX好方便之省code系列 (Navigation) - 2  
 [Day15] Andoroid - Kotlin筆記：JetPack - KTX好方便之省code系列 (LiveData)  
 [Day16] Andoroid - Kotlin筆記：Scope function - let、also、run、apply  
-[Day17] Andoroid - Kotlin筆記：LiveData在Fragment重新創建時，LiveData的重複觸發
+[Day17] Andoroid - Kotlin筆記：LiveData在Fragment重新創建時，LiveData的重複觸發  
 ...（待訂）
   
 ---

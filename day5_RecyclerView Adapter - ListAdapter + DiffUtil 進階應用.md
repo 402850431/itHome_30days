@@ -235,7 +235,7 @@ DiffUtil也改為判斷`DataItem`中的`id`
 ```
 ---
 
-## 全代碼展示：
+## 全程式碼展示：
 
 - ### Adapter
 

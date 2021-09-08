@@ -189,7 +189,8 @@ class RvAdapter() :
 ```
 
 
-全代碼範例展示：  
+全程式碼範例展示：  
+(有時間來補上github連結給各位)  
 ```kotlin
 data class Person(
     val id: Long?,
