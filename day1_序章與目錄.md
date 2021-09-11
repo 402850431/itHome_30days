@@ -14,23 +14,23 @@
 
 ---
 ## 內容目錄
-[Day1] Andoroid - Kotlin筆記： 序章與目錄  
-[Day2] Andoroid - Kotlin筆記：init、lateinit、by lazy{}  
-[Day3] Andoroid - Kotlin筆記：lambda  
-[Day4] Andoroid - Kotlin筆記：RecyclerView Adapter - ListAdapter + DiffUtil  
-[Day5] Andoroid - Kotlin筆記：RecyclerView Adapter - ListAdapter + DiffUtil 進階應用  
-[Day6] Andoroid - Kotlin筆記：RecyclerViewPool  
-[Day7] Andoroid - Kotlin筆記：MVVM基本架構介紹(上) - View & ViewModel  
-[Day8] Andoroid - Kotlin筆記：MVVM基本架構介紹(下) - LiveData  
-[Day9] Andoroid - Kotlin筆記：JetPack - KTX簡介  
-[Day10] Andoroid - Kotlin筆記：JetPack - KTX好方便之省code系列 (ViewModel - viewModelScope)  
-[Day11] Andoroid - Kotlin筆記：JetPack - KTX好方便之省code系列 (Fragment)  
-[Day12] Andoroid - Kotlin筆記：JetPack - KTX好方便之省code系列 (LiveData)  
-[Day13] Andoroid - Kotlin筆記：JetPack - KTX好方便之省code系列 (Navigation)  
-[Day14] Andoroid - Kotlin筆記：JetPack - KTX好方便之省code系列 (Navigation) - 2  
-[Day15] Andoroid - Kotlin筆記：JetPack - KTX好方便之省code系列 (LiveData)  
-[Day16] Andoroid - Kotlin筆記：Scope function - let、also、run、apply  
-[Day17] Andoroid - Kotlin筆記：LiveData在Fragment重新創建時，LiveData的重複觸發  
+[Day1] Android - Kotlin筆記： 序章與目錄  
+[Day2] Android - Kotlin筆記：init、lateinit、by lazy{}  
+[Day3] Android - Kotlin筆記：lambda  
+[Day4] Android - Kotlin筆記：RecyclerView Adapter - ListAdapter + DiffUtil  
+[Day5] Android - Kotlin筆記：RecyclerView Adapter - ListAdapter + DiffUtil 進階應用  
+[Day6] Android - Kotlin筆記：RecyclerViewPool  
+[Day7] Android - Kotlin筆記：MVVM基本架構介紹(上) - View & ViewModel  
+[Day8] Android - Kotlin筆記：MVVM基本架構介紹(下) - LiveData  
+[Day9] Android - Kotlin筆記：JetPack - KTX簡介  
+[Day10] Android - Kotlin筆記：JetPack - KTX好方便之省code系列 (ViewModel - viewModelScope)  
+[Day11] Android - Kotlin筆記：JetPack - KTX好方便之省code系列 (Fragment)  
+[Day12] Android - Kotlin筆記：JetPack - KTX好方便之省code系列 (LiveData)  
+[Day13] Android - Kotlin筆記：JetPack - KTX好方便之省code系列 (Navigation)  
+[Day14] Android - Kotlin筆記：JetPack - KTX好方便之省code系列 (Navigation) - 2  
+[Day15] Android - Kotlin筆記：JetPack - KTX好方便之省code系列 (LiveData)  
+[Day16] Android - Kotlin筆記：Scope function - let、also、run、apply  
+[Day17] Android - Kotlin筆記：LiveData在Fragment重新創建時，LiveData的重複觸發  
 ...（待訂）
   
 ---

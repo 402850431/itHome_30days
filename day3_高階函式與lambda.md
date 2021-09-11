@@ -1,4 +1,4 @@
-## [Day3] Andoroid - Kotlin筆記：高階函式與 lambda
+## [Day3] Android - Kotlin筆記：高階函式與 lambda
 
 來理解一下lambda
 ---

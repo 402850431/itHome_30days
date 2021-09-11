@@ -1,4 +1,4 @@
-## [Day6] Andoroid - Kotlin筆記：RecycledViewPool
+## [Day6] Android - Kotlin筆記：RecycledViewPool
 
 > ## 什麼是RecycledViewPool
 `RecycledViewPool`是`RecycledView`的緩存池。

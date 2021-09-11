@@ -1,4 +1,4 @@
-## [Day5] Andoroid - Kotlin筆記：ListAdapter + DiffUtil 進階應用 - 複數itemViewType
+## [Day5] Android - Kotlin筆記：ListAdapter + DiffUtil 進階應用 - 複數itemViewType
 
 > ## Problem
 昨天我們提到`ListAdapter + DiffUtil`在一般`RecyclerView`的基本使用。  

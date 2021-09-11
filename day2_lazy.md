@@ -1,4 +1,4 @@
-##  [Day2] Andoroid - Kotlin筆記： lazy
+##  [Day2] Android - Kotlin筆記： lazy
 
 來介紹一下lazy
 ---

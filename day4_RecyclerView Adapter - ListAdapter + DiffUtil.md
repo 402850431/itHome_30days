@@ -1,4 +1,4 @@
-## [Day4] Andoroid - Kotlin筆記：RecyclerView Adapter - ListAdapter + DiffUtil
+## [Day4] Android - Kotlin筆記：RecyclerView Adapter - ListAdapter + DiffUtil
 
 來介紹一下DiffUtil
 ---
