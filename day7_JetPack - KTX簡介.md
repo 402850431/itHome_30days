@@ -1,4 +1,4 @@
-## [Day7] Android - JetPack - KTX簡介
+## [Day7] Android - Kotlin筆記：JetPack - KTX簡介
 KTX是Jetpack中的一套extension，  
 提供了許多簡潔、慣用的 Kotlin用法。
 

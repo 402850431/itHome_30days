@@ -1,4 +1,4 @@
-## [Day8] Android - JetPack - Core KTX
+## [Day8] Android - Kotlin筆記：JetPack - Core KTX
 
 
 ### Core KTX 包含的module有：
