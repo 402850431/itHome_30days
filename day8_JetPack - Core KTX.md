@@ -25,14 +25,28 @@
 
 ---
 
-- ### androidx.core.content
+### Toast
+
+```kotlin
+//原本寫法
+Toast.makeText(this,
+    R.string.text,
+    Toast.LENGTH_SHORT).show()
+```
+
+```
+//使用core KTX
+context.toast(R.string.text)
+```
+---
+### SharedPreferences
 ```kotlin
 inline fun SharedPreferences.edit(
     commit: Boolean = false, 
     action: Editor.() -> Unit
 ): Unit
 ```
-儲存資料至SharedPreferences的簡潔用法
+儲存資料至的簡潔用法
 
 用法 ex:
 ```kotlin
@@ -40,8 +54,8 @@ spf.edit(commit = true) {
     putString(key, value)
 }
 ```
-對 這寫法真的很舒服 (*¯︶¯*)
-註：spf的宣告
+對 這寫法真的很舒服 (*¯︶¯*)  
+使用前記得先宣告spf：
 ```kotlin
 private val spf by lazy { 
     this.getSharedPreferences(getString(R.string.preference_file_key), Context.MODE_PRIVATE) 
@@ -49,13 +63,13 @@ private val spf by lazy {
 ```
 
 ---
-
-- ### androidx.core.text
+### TextWatcher
 ```kotlin
-TextView.doAfterTextChanged(crossinline action: (text: Editable?) -> Unit)```
-這是`TextWatcher`的擴充套件。  
-如果你afterTextChanged下面做其他事，  
-不需要再寫落落ㄉㄥˊ的
+TextView.doAfterTextChanged(crossinline action: (text: Editable?) -> Unit)
+```
+
+只有需要afterTextChanged底下做其他事，  
+不需要再寫落落ㄉㄥˊ的：
 ```kotlin
         textView.addTextChangedListener(object : TextWatcher {
             override fun beforeTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {
@@ -77,8 +91,6 @@ textView.doAfterTextChanged {
 }
 ```
 ---
-- ### androidx.core.view
-
 ### isVisible
 ```kotlin
 inline var View.isVisible: Boolean

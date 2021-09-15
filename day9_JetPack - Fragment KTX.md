@@ -1,4 +1,4 @@
-## [Day9] Android - JetPack - Fragment KTX
+## [Day9] Android - Kotlin筆記：JetPack - Fragment KTX
 
 
 ### Fragment KTX
@@ -8,7 +8,6 @@ dependencies {
     implementation("androidx.fragment:fragment-ktx:1.3.6")
 }
 ```
-
 ---
 
 ### viewModels
@@ -38,16 +37,30 @@ class MyFragment : Fragment() {
 ```
 ---
 
-`fragment`間的頁面切換也可以改寫為：
-
+`fragment`間的頁面切換也可以從以往的：
 ```kotlin
-fragmentManager().commit {
-   addToBackStack("...")
-   setCustomAnimations( R.anim.enter_anim, R.anim.exit_anim)
-   add(fragment, "...")
-}
+supportFragmentManager.beginTransaction()
+            .addToBackStack("...")
+            .setCustomAnimations( R.anim.enter_anim, R.anim.exit_anim)
+            .replace(
+                R.id.fragment_container,
+                myFragment,
+                FRAGMENT_TAG
+            )
+            .commitAllowingStateLoss()
 ```
-是不是很方便呢？  
-
+改寫為：
+```kotlin
+supportFragmentManager.commit {
+            addToBackStack("...")
+            setCustomAnimations( R.anim.enter_anim, R.anim.exit_anim)
+            replace(
+                R.id.fragment_container,
+                myFragment,
+                FRAGMENT_TAG
+            )
+        }     
+```
+---
 在這邊只簡單列出幾個常用的方法，  
 如果有興趣研究更多可以看看[官網](https://developer.android.com/reference/kotlin/androidx/fragment/app/package-summary)喔。
